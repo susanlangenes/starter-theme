@@ -1,0 +1,65 @@
+
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic);
+
+body {
+	background: #fff;
+	padding: 0 24px;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: 'PT Serif', serif;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+h1 { font-size: 34px; font-size: 2.125rem; margin-bottom: 12px; }
+h2 { font-size: 28px; font-size: 1.75rem; margin-bottom: 12px; }
+h3 { font-size: 22px; font-size: 1.4rem; margin-bottom: 6px; }
+h4 { font-size: 20px; font-size: 1.25rem; margin-bottom: 6px; }
+h5 { font-size: 20px; font-size: 1.25rem; margin-bottom: 6px; font-style: italic; }
+h6 { font-size: 16px; font-size: 1rem; text-transform: uppercase; }
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
+}
+blockquote {
+	font-style: italic;
+}
+fieldset {
+	padding: 20px;
+	border: 1px solid #CCC;
+}
+/* it's not worth going any further than this with tables in TinyMCE. */
+table {
+	margin: 0 0 24px;
+	margin: 0 0 1.5rem;
+	width: 100%;
+}
+a {
+	color: #ff6600;
+}
+a:visited {
+	color: #d84917;
+}
+a:hover,
+a:focus,
+a:active {
+	color: #ff4200;
+}
