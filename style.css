@@ -849,6 +849,7 @@ object {
 .widget_search .search-submit {
 	display: none;
 }
+	
 /* Header Sidebar
 ---------------------------------------------- */
 .header-widget-area {
@@ -899,7 +900,38 @@ object {
 		margin-right: 0;
 	}
 }
-
+/* quote widget */
+.widget_quote_widget .inner-widget-area {
+	padding-top: 20px;
+}
+.widget-quote {
+	background: rgb(205, 234, 230);
+	padding: 12px;
+	margin-bottom: 0;
+}
+.widget-quote-author {
+	text-align: right;
+	background: rgb(205, 234, 230);
+	padding: 0 12px 12px;
+}
+.widget-quote:before { 
+	content:"\201C";
+	color: white;
+	font-size: 48px;
+	font-size: 3rem;
+	line-height: 0.1;
+	vertical-align: -20px;
+	margin-right: 4px;
+}
+.widget-quote:after {
+	content:"\201D";
+	color: white;
+	font-size: 48px;
+	font-size: 3rem;
+	line-height: 0.1;
+	vertical-align: -20px;
+	margin-left: 4px;
+}
 
 /* =Infinite Scroll
 ----------------------------------------------- */
