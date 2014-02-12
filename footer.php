@@ -13,6 +13,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<?php do_action( 'starter_theme_credits' ); ?>
+			<?php echo '<span>&copy; ' . date('Y') . ' Collage Creative.' . '</span>'; ?>
 			<a href="http://wordpress.org/" rel="generator"><?php printf( __( 'Proudly powered by %s', 'starter-theme' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'starter-theme' ), 'Starter Theme', '<a href="http://collagecreative.net" rel="designer">Susan Langenes</a>' ); ?>
